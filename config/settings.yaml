@@ -1,0 +1,14 @@
+# Dobby Docs Agent Configuration
+
+agent:
+  name: "Dobby"
+  max_retries: 3
+  timeout: 30
+
+chunking:
+  chunk_size: 1000
+  chunk_overlap: 200
+
+retrieval:
+  top_k: 5
+  score_threshold: 0.7
